@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 800px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+}
+
+.btn {
+  margin: 10px auto;
+  width: 250px;
+  padding: 5px;
+  background-color: brown;
+  color: aliceblue;
+}
